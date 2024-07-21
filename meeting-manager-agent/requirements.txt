@@ -1,0 +1,4 @@
+litellm
+todoist_api_python 
+colorama
+python-dotenv
