@@ -31,8 +31,8 @@ I built an AI-powered system to streamline project and task management in Todois
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/kaymen99/ai-agents-projects/meeting-manager-agent.git
-   cd ai-agents-projects/meeting-manager-agent
+   git clone https://github.com/kaymen99/Todoist-meeting-manager-agent.git
+   cd Todoist-meeting-manager-agent
    ```
 
 2. **Create and activate a virtual environment:**
