@@ -1,3 +1,4 @@
+
 transcript1 = """
 John D.: Good morning, everyone. Let's start with the Flowise project updates. Jane, can you give us a status update on the marketing campaign?
 
@@ -109,14 +110,3 @@ Jane S.: Thanks, Emily. It’ll help us stay organized.
 
 John D.: Good point. Let’s keep that updated. Thanks, everyone. Let’s get to work and meet our deadlines. See you next week!
 """
-
-# use dummy but realistic transcripts for testing the agent behaviour
-# We'll implement later functions to extract transcript from: Google Meet, Discord or whatsAPP/Telegram
-def get_transcript(meeting_id):
-  """
-  Retrieve the transcript from the recorded Google Meet session.
-  """
-  if meeting_id == "1":
-    return transcript1
-  elif meeting_id == "2":
-    return transcript2

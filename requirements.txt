@@ -1,4 +1,6 @@
 litellm
+instructor
+pydantic
 todoist_api_python 
 colorama
 python-dotenv

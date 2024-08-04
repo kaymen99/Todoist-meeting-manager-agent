@@ -1,4 +1,15 @@
 import os, requests, time
+from pydantic import Field
+from src.tools.base_tool import BaseTool
+
+class SendTelegramMessage(BaseTool):
+    """
+    A tool that send a message to a Telegram group chat.
+    """
+    query: str = Field(description='The message text to send')
+
+    def run(self):
+        return send_message(self.query)
 
 def send_message(text):
     TOKEN = os.getenv("TELEGRAM_TOKEN")

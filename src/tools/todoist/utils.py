@@ -1,4 +1,4 @@
-import requests, time, uuid, os, json
+import requests, uuid, os, json
 from todoist_api_python.api import TodoistAPI
 from src.utils import convert_human_datetime
 
