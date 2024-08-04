@@ -20,7 +20,6 @@ class Agent:
         """
         self.name = name
         self.model = model
-        # self.client = PatchLiteLLM(models_list)
         self.messages = []
         self.tools = tools
         if tools:
